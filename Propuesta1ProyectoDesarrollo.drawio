@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-23T21:29:17.378Z" agent="5.0 (X11)" etag="pysFBNt-tvdmmH-ONbOU" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-23T21:33:38.580Z" agent="5.0 (X11)" etag="sjPMVf28GV1A0NxbURj5" version="20.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1550" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,8 +125,9 @@
         <mxCell id="8BfYpWPE0i2859SI4WqA-42" value="cursos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="335" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8BfYpWPE0i2859SI4WqA-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8BfYpWPE0i2859SI4WqA-6" target="8BfYpWPE0i2859SI4WqA-3">
+        <mxCell id="8BfYpWPE0i2859SI4WqA-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8BfYpWPE0i2859SI4WqA-6">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369" y="380" as="targetPoint" />
             <Array as="points">
               <mxPoint x="369" y="466" />
             </Array>
