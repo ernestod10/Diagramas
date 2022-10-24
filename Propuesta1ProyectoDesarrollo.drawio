@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T02:00:15.301Z" agent="5.0 (X11)" etag="fi8UlbdnSUB1gY99Kc4j" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T02:05:51.309Z" agent="5.0 (X11)" etag="frXnCwlco91xtuXI3E_j" version="20.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1848" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2563" dy="2121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -469,6 +469,21 @@
         </mxCell>
         <mxCell id="8BfYpWPE0i2859SI4WqA-172" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="802" y="600" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8BfYpWPE0i2859SI4WqA-173" value="&lt;div&gt;Patrón decorador.Los decoradores son solo para los CRUD, de momento. &lt;br&gt;&lt;/div&gt;&lt;div&gt;Faltan las acciones no-CRUD&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="810" y="470" width="160" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="8BfYpWPE0i2859SI4WqA-174" value="Patrón observador. Faltan notificadores concretos para notificar cambios" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="970" y="180" width="160" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="8BfYpWPE0i2859SI4WqA-175" value="Patrón cadena de responsabilidad. Falta definir la secuencia concreta para autenticar login" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1280" y="90" width="160" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="8BfYpWPE0i2859SI4WqA-176" value="Patrón estado. Es para el estado de Estudiante, Curso y Lección" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="-40" width="160" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="8BfYpWPE0i2859SI4WqA-177" value="Patrón composición. Para la jerarquía de categorías y cursos" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-210" y="530" width="160" height="97" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
