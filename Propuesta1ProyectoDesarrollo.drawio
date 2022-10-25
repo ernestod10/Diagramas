@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T13:17:17.220Z" agent="5.0 (X11)" etag="aWdZ-Li7cscyX9L-dyu2" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-25T13:35:43.970Z" agent="5.0 (X11)" etag="5OvgsQ-A9l6vq-3AuITT" version="20.5.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de Clases">
     <mxGraphModel dx="1695" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,7 +183,8 @@
             <Array as="points">
               <mxPoint x="360" y="699" />
               <mxPoint x="410" y="699" />
-              <mxPoint x="410" y="418" />
+              <mxPoint x="410" y="450" />
+              <mxPoint x="435" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -781,6 +782,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cqtXJ7L5jVSX5SkVTIfj-1" value="Diagrama de secuencia: Crear Curso" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="99" y="12" width="80" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
