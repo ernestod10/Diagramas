@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T00:40:50.271Z" agent="5.0 (X11)" etag="LijxsuwcYAdlRtMfX4ml" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-25T01:20:19.591Z" agent="5.0 (X11)" etag="FuAIfWE_D8PbrRhW8xx5" version="20.5.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de Clases">
     <mxGraphModel dx="1695" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -438,7 +438,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7ReUjTgV4zF6wI71q1vx" name="Secuencia Login">
-    <mxGraphModel dx="643" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1929" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -771,6 +771,14 @@
             <mxPoint x="159.75925925925935" y="1234.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e5j_b8y__hk1T5HLdTt5" name="Secuencia Crear Curso">
+    <mxGraphModel dx="868" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
