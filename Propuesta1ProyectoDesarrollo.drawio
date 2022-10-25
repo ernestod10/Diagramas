@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T00:25:57.142Z" agent="5.0 (X11)" etag="MZgLk1lbfU0oJ4h5h1Kb" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-25T00:32:48.974Z" agent="5.0 (X11)" etag="e9jGMdAuV5EnfXjP-2dF" version="20.5.1" type="github" pages="2">
   <diagram id="7ReUjTgV4zF6wI71q1vx" name="Page-2">
-    <mxGraphModel dx="868" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1085" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,6 +118,9 @@
             <mxPoint x="349.5" y="384.5" as="sourcePoint" />
             <mxPoint x="170" y="384.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gsHDv8bJRbhI0WwLQCq3-15" value="Flujo alternativo 1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="340" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
