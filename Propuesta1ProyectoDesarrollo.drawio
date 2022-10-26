@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T18:47:21.973Z" agent="5.0 (X11)" etag="7sTXCFn-DPA02z2ErXW8" version="20.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-10-26T19:09:01.512Z" agent="5.0 (X11)" etag="3UcYiAC1ZW5x45ChlaJx" version="20.5.1" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de Clases">
-    <mxGraphModel dx="1470" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2405" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -598,6 +598,9 @@
         </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-42" value="+ ejecutar(contexto: Z): R" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-39">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-44" value="Patrón cadena de responsabilidad. Si un buscador no encuentra resultados, le deja la responsabilidad al otro" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1210" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
