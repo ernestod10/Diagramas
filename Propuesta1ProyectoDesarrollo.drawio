@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T15:03:23.078Z" agent="5.0 (X11)" etag="SHPRMjxTItvNnsy5_msy" version="20.5.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-10-26T16:09:03.568Z" agent="5.0 (X11)" etag="4PyWTHLNxxLGfD0oWwiz" version="20.5.1" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de Clases">
     <mxGraphModel dx="2563" dy="2121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1475,6 +1475,137 @@
             <Array as="points">
               <mxPoint x="1345.07" y="390" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SdgqSx2jmMUoMMIdA7b7" name="Secuencia: Buscar">
+    <mxGraphModel dx="1021" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D0Fk2KPvYpAv3yDJ5ha9-1" value="Diagrama de secuencia: Buscar" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="69" y="12" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="D0Fk2KPvYpAv3yDJ5ha9-2" value="BuscadorCategoría" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="59" width="130" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="D0Fk2KPvYpAv3yDJ5ha9-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="D0Fk2KPvYpAv3yDJ5ha9-2">
+          <mxGeometry x="60" y="91" width="10" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="D0Fk2KPvYpAv3yDJ5ha9-4" value="Persona" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="59" width="100" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="D0Fk2KPvYpAv3yDJ5ha9-5" value="BuscadorTag" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="59" width="120" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="D0Fk2KPvYpAv3yDJ5ha9-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="D0Fk2KPvYpAv3yDJ5ha9-5">
+          <mxGeometry x="55" y="128" width="10" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="D0Fk2KPvYpAv3yDJ5ha9-9" value="&lt;div&gt;1: Introduce string a buscar&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="D0Fk2KPvYpAv3yDJ5ha9-4" target="D0Fk2KPvYpAv3yDJ5ha9-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="190" y="158.71000000000004" as="sourcePoint" />
+            <mxPoint x="374.5" y="158.71000000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="235" y="158.71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ETbPvX8yLQjwtjPoUBO-1" value="2: Devuelve cursos que&amp;nbsp; tengan una categoría llamada igual al string " style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="D0Fk2KPvYpAv3yDJ5ha9-2" target="D0Fk2KPvYpAv3yDJ5ha9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="374.5" y="279.5" as="sourcePoint" />
+            <mxPoint x="79.66666666666652" y="279.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-1" value="Flujo alternativo 1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="970" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-2" value="BuscadorCategoría" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="509" width="130" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0O7ZPmtIpP5OFbkgB9DB-2">
+          <mxGeometry x="60" y="91" width="10" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-4" value="Persona" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="509" width="100" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-5" value="BuscadorTag" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="509" width="120" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0O7ZPmtIpP5OFbkgB9DB-5">
+          <mxGeometry x="55" y="104" width="10" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-7" value="&lt;div&gt;1: Introduce string a buscar&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="0O7ZPmtIpP5OFbkgB9DB-4" target="0O7ZPmtIpP5OFbkgB9DB-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="280" y="608.71" as="sourcePoint" />
+            <mxPoint x="464.5" y="608.71" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="325" y="608.71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-8" value="3: Devuelve cursos que&amp;nbsp; tengan un tag igual al string " style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="819.5" y="709.5" as="sourcePoint" />
+            <mxPoint x="169.32352941176464" y="709.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-9" value="&lt;div&gt;2: Envía string a buscar&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="534.3235294117646" y="640" as="sourcePoint" />
+            <mxPoint x="819.5" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="703.0899999999999" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-10" value="Flujo alternativo 2" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="931" width="970" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-11" value="BuscadorCategoría" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="990" width="130" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0O7ZPmtIpP5OFbkgB9DB-11">
+          <mxGeometry x="60" y="91" width="10" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-13" value="Persona" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="990" width="100" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-14" value="BuscadorTag" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="990" width="120" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0O7ZPmtIpP5OFbkgB9DB-14">
+          <mxGeometry x="55" y="104" width="10" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-16" value="&lt;div&gt;1: Introduce string a buscar&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="0O7ZPmtIpP5OFbkgB9DB-13" target="0O7ZPmtIpP5OFbkgB9DB-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="280" y="1089.71" as="sourcePoint" />
+            <mxPoint x="464.5" y="1089.71" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="325" y="1089.71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-17" value="3: Notifica que no hay resultados " style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="0O7ZPmtIpP5OFbkgB9DB-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="819.5" y="1190.5" as="sourcePoint" />
+            <mxPoint x="169.32352941176464" y="1190.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-18" value="&lt;div&gt;2: Envía string a buscar&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="534.3235294117646" y="1121" as="sourcePoint" />
+            <mxPoint x="819.5" y="1121" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="703.0899999999999" y="1121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O7ZPmtIpP5OFbkgB9DB-20" value="3: Notifica que no hay resultados " style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="0O7ZPmtIpP5OFbkgB9DB-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529.5" y="1210.5" as="sourcePoint" />
+            <mxPoint x="244.32352941176464" y="1210.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
