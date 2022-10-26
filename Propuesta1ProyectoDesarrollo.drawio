@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T19:40:26.270Z" agent="5.0 (X11)" etag="yIsB9XjP4RGJSBr--mtX" version="20.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-10-26T20:39:09.693Z" agent="5.0 (X11)" etag="jgGD9kAwvNxxtw5bEIij" version="20.5.1" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de Clases">
-    <mxGraphModel dx="2405" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1582" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -171,10 +171,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8BfYpWPE0i2859SI4WqA-63" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1390" y="305" width="30" height="30" as="geometry" />
+          <mxGeometry x="1390" y="1335" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8BfYpWPE0i2859SI4WqA-64" value="sucesor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1390" y="335" width="70" height="30" as="geometry" />
+          <mxGeometry x="1390" y="1365" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8BfYpWPE0i2859SI4WqA-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8BfYpWPE0i2859SI4WqA-7" target="8BfYpWPE0i2859SI4WqA-0" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -410,7 +410,7 @@
         <mxCell id="8BfYpWPE0i2859SI4WqA-173" value="&lt;div&gt;Patrón decorador.Los decoradores son solo para los CRUD, de momento. &lt;br&gt;&lt;/div&gt;&lt;div&gt;Faltan las acciones no-CRUD&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="760" y="470" width="160" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="8BfYpWPE0i2859SI4WqA-174" value="Patrón observador. Faltan notificadores concretos para notificar cambios" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="8BfYpWPE0i2859SI4WqA-174" value="Patrón observador. Para notificar cambios y eliminaciones." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="970" y="180" width="160" height="97" as="geometry" />
         </mxCell>
         <mxCell id="8BfYpWPE0i2859SI4WqA-175" value="Patrón cadena de responsabilidad. Falta definir la secuencia concreta para autenticar login" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
