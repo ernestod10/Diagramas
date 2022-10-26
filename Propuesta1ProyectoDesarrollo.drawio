@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T13:35:43.970Z" agent="5.0 (X11)" etag="5OvgsQ-A9l6vq-3AuITT" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-26T03:20:57.700Z" agent="5.0 (X11)" etag="IUZpRBVdVpo06AdYW99c" version="20.5.1" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de Clases">
-    <mxGraphModel dx="1695" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1848" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -176,7 +176,7 @@
         <mxCell id="8BfYpWPE0i2859SI4WqA-64" value="sucesor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1390" y="335" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8BfYpWPE0i2859SI4WqA-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="8BfYpWPE0i2859SI4WqA-0" edge="1" source="8BfYpWPE0i2859SI4WqA-7">
+        <mxCell id="8BfYpWPE0i2859SI4WqA-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8BfYpWPE0i2859SI4WqA-7" target="8BfYpWPE0i2859SI4WqA-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="439" as="targetPoint" />
             <mxPoint x="327" y="699" as="sourcePoint" />
@@ -778,12 +778,146 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e5j_b8y__hk1T5HLdTt5" name="Secuencia Crear Curso">
-    <mxGraphModel dx="868" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2297" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cqtXJ7L5jVSX5SkVTIfj-1" value="Diagrama de secuencia: Crear Curso" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="99" y="12" width="80" height="26" as="geometry" />
+        <mxCell id="cqtXJ7L5jVSX5SkVTIfj-1" value="Diagrama de secuencia: Crear Curso" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
+          <mxGeometry x="19" y="12" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rj64ukZDmqZFFhJVl9jC-1" value="ManejarCurso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="59" width="100" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="rj64ukZDmqZFFhJVl9jC-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="rj64ukZDmqZFFhJVl9jC-1">
+          <mxGeometry x="45" y="78" width="10" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="rj64ukZDmqZFFhJVl9jC-4" value="Administrador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="59" width="100" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="rj64ukZDmqZFFhJVl9jC-6" value="Base de datos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="59" width="120" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="rj64ukZDmqZFFhJVl9jC-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="rj64ukZDmqZFFhJVl9jC-6">
+          <mxGeometry x="55" y="128" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rj64ukZDmqZFFhJVl9jC-9" value="Crear" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="59" width="120" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="rj64ukZDmqZFFhJVl9jC-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="rj64ukZDmqZFFhJVl9jC-9">
+          <mxGeometry x="55" y="120" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rj64ukZDmqZFFhJVl9jC-8" value="1: Pasa datos del curso a crear" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="rj64ukZDmqZFFhJVl9jC-1" source="rj64ukZDmqZFFhJVl9jC-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="140" y="158.71000000000004" as="sourcePoint" />
+            <mxPoint x="324.5" y="158.71000000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="158.71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cO7WT7vtansbME_3ViR1-1" value="2: Decora a&amp;nbsp; Crear para que sepa qué se creará" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="rj64ukZDmqZFFhJVl9jC-1" target="rj64ukZDmqZFFhJVl9jC-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="355" y="180" as="sourcePoint" />
+            <mxPoint x="505" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485.07" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rj64ukZDmqZFFhJVl9jC-11" value="4:Retorna el curso creado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="rj64ukZDmqZFFhJVl9jC-9" target="rj64ukZDmqZFFhJVl9jC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="278.71000000000004" as="sourcePoint" />
+            <mxPoint x="365.5" y="278.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tl5xCxS4OrWMeP3ObMn-1" value="3: Crea&amp;nbsp; el curso en la base de datos" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="619.9285714285714" y="190" as="sourcePoint" />
+            <mxPoint x="889.5" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="765.0699999999999" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tl5xCxS4OrWMeP3ObMn-2" value="5:Agrega el curso a la lista de cursos del administrador" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="rj64ukZDmqZFFhJVl9jC-2" target="rj64ukZDmqZFFhJVl9jC-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.5" y="249.5" as="sourcePoint" />
+            <mxPoint x="-0.07142857142855519" y="249.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5ukJOY62WrrgTWLVTJCX" name="Secuencia Crear Lección">
+    <mxGraphModel dx="1718" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pOucEYC9IW669PryQXb0-1" value="Diagrama de secuencia: Crear Lección" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="19" y="12" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-2" value="ManejarLección" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="59" width="100" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pOucEYC9IW669PryQXb0-2">
+          <mxGeometry x="45" y="78" width="10" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-4" value="Administrador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="59" width="100" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-5" value="Curso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="59" width="120" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pOucEYC9IW669PryQXb0-5">
+          <mxGeometry x="55" y="128" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-7" value="Crear" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="59" width="120" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pOucEYC9IW669PryQXb0-7">
+          <mxGeometry x="55" y="120" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-9" value="1: Pasa datos de lección a crear" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="pOucEYC9IW669PryQXb0-4" target="pOucEYC9IW669PryQXb0-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="140" y="158.71000000000004" as="sourcePoint" />
+            <mxPoint x="324.5" y="158.71000000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="158.71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-10" value="2: Decora a&amp;nbsp; Crear para que sepa qué se creará" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="pOucEYC9IW669PryQXb0-2" target="pOucEYC9IW669PryQXb0-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="355" y="180" as="sourcePoint" />
+            <mxPoint x="505" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485.07" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pOucEYC9IW669PryQXb0-12" value="4:Agrega lección a la lista de lecciones del curso" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="619.9285714285716" y="190" as="sourcePoint" />
+            <mxPoint x="889.5" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="765.0699999999999" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EHqRK-6JlfUy2_Vv2jIl-1" value="Base de datos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="59" width="120" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="EHqRK-6JlfUy2_Vv2jIl-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="EHqRK-6JlfUy2_Vv2jIl-1">
+          <mxGeometry x="55" y="150" width="10" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="EHqRK-6JlfUy2_Vv2jIl-3" value="4:Agrega lección a la lista de lecciones del curso" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="889.5" y="220" as="sourcePoint" />
+            <mxPoint x="1129.5" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1095.07" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
