@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T18:47:03.131Z" agent="5.0 (X11)" etag="fd6f_rm1CPEgLWIvTdp1" version="20.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-10-26T18:47:21.973Z" agent="5.0 (X11)" etag="7sTXCFn-DPA02z2ErXW8" version="20.5.1" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de Clases">
-    <mxGraphModel dx="1912" dy="1764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1470" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -566,7 +566,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FWEFEDBuIWGpX6YMEfrs-34" value="BuscadorTag" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-34" value="AutenticadorCorreo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1551" y="478" width="161" height="86" as="geometry" />
         </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-35" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-34">
@@ -587,7 +587,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FWEFEDBuIWGpX6YMEfrs-39" value="BuscadorCategoria" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-39" value="AutenticadorClave" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1770" y="481" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-40" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-39">
