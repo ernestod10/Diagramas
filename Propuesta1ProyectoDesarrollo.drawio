@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T19:09:01.512Z" agent="5.0 (X11)" etag="3UcYiAC1ZW5x45ChlaJx" version="20.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-10-26T19:38:50.266Z" agent="5.0 (X11)" etag="tYYCT4_Kao_dBK6935p7" version="20.5.1" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de Clases">
     <mxGraphModel dx="2405" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,7 +154,7 @@
           <mxGeometry y="50" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8BfYpWPE0i2859SI4WqA-60" value="«interface»&#xa;Autenticador&#xa;&lt;Z&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1180" y="294" width="220" height="76" as="geometry">
+          <mxGeometry x="1170" y="1324" width="220" height="76" as="geometry">
             <mxRectangle x="460" y="130" width="100" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -164,9 +164,9 @@
         <mxCell id="8BfYpWPE0i2859SI4WqA-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;endArrow=diamondThin;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8BfYpWPE0i2859SI4WqA-60" target="8BfYpWPE0i2859SI4WqA-60" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1430" y="332" />
-              <mxPoint x="1430" y="220" />
-              <mxPoint x="1290" y="220" />
+              <mxPoint x="1420" y="1362" />
+              <mxPoint x="1420" y="1250" />
+              <mxPoint x="1280" y="1250" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -414,7 +414,7 @@
           <mxGeometry x="970" y="180" width="160" height="97" as="geometry" />
         </mxCell>
         <mxCell id="8BfYpWPE0i2859SI4WqA-175" value="Patrón cadena de responsabilidad. Falta definir la secuencia concreta para autenticar login" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1280" y="90" width="160" height="97" as="geometry" />
+          <mxGeometry x="1270" y="1120" width="160" height="97" as="geometry" />
         </mxCell>
         <mxCell id="8BfYpWPE0i2859SI4WqA-176" value="Patrón estado. Es para el estado de Estudiante, Curso y Lección" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="430" y="-40" width="160" height="97" as="geometry" />
@@ -503,6 +503,9 @@
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-21" value="+ ejecutar(contexto: Z): R" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-18">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FWEFEDBuIWGpX6YMEfrs-22" target="8BfYpWPE0i2859SI4WqA-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-22" value="Login" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="850" y="1115" width="160" height="60" as="geometry" />
         </mxCell>
@@ -561,13 +564,13 @@
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.815;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FWEFEDBuIWGpX6YMEfrs-34" target="8BfYpWPE0i2859SI4WqA-61">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1632" y="440" />
-              <mxPoint x="1359" y="440" />
+              <mxPoint x="1622" y="1470" />
+              <mxPoint x="1349" y="1470" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-34" value="AutenticadorCorreo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1551" y="478" width="161" height="86" as="geometry" />
+          <mxGeometry x="1541" y="1508" width="161" height="86" as="geometry" />
         </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-35" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-34">
           <mxGeometry y="26" width="161" height="26" as="geometry" />
@@ -580,15 +583,15 @@
         </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FWEFEDBuIWGpX6YMEfrs-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1500" y="440" as="targetPoint" />
+            <mxPoint x="1490" y="1470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1850" y="440" />
-              <mxPoint x="1500" y="440" />
+              <mxPoint x="1840" y="1470" />
+              <mxPoint x="1490" y="1470" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-39" value="AutenticadorClave" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1770" y="481" width="160" height="86" as="geometry" />
+          <mxGeometry x="1760" y="1511" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-40" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-39">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
