@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T17:42:20.124Z" agent="5.0 (X11)" etag="JHrSV14ZiIiNknLuTxS5" version="20.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-10-26T18:47:03.131Z" agent="5.0 (X11)" etag="fd6f_rm1CPEgLWIvTdp1" version="20.5.1" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de Clases">
     <mxGraphModel dx="1912" dy="1764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -557,6 +557,47 @@
         </mxCell>
         <mxCell id="FWEFEDBuIWGpX6YMEfrs-33" value="sucesor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="1060" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.815;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FWEFEDBuIWGpX6YMEfrs-34" target="8BfYpWPE0i2859SI4WqA-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1632" y="440" />
+              <mxPoint x="1359" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-34" value="BuscadorTag" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1551" y="478" width="161" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-35" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-34">
+          <mxGeometry y="26" width="161" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-34">
+          <mxGeometry y="52" width="161" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-37" value="+ ejecutar(contexto: Z): R" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-34">
+          <mxGeometry y="60" width="161" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FWEFEDBuIWGpX6YMEfrs-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1850" y="440" />
+              <mxPoint x="1500" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-39" value="BuscadorCategoria" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1770" y="481" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-40" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-39">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-39">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FWEFEDBuIWGpX6YMEfrs-42" value="+ ejecutar(contexto: Z): R" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FWEFEDBuIWGpX6YMEfrs-39">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
